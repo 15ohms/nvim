@@ -1,6 +1,6 @@
-local lspconfig = require("lspconfig")
+--local lspconfig = require("lspconfig")
 
-lspconfig.lua_ls.setup({
+vim.lsp.config['lus_ls'] = {
   on_attach = function(client, bufnr)
     local opts = { noremap = true, silent = true, buffer = bufnr }
     vim.keymap.set("n", "gd", vim.lsp.buf.definition, opts)
@@ -11,5 +11,5 @@ lspconfig.lua_ls.setup({
     vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, opts)
     vim.keymap.set("n", "<leader>f", vim.lsp.buf.format, opts)
   end,
-})
+}
 
