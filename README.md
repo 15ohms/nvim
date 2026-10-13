@@ -6,4 +6,4 @@ It is important to note that this project is actively being worked on. That is t
 ## Required
 
 ## Reccomended
-fd | For better telescope search
+[fd](https://github.com/sharkdp/fd) | For better telescope search
