@@ -4,6 +4,8 @@ It is important to note that this project is actively being worked on. That is t
 
 # Dependencies
 ## Required
+tree-sitter-cli [***Installed with your distro's package manager***] | So that tree-sitter can highlight code.
+
 
 ## Reccomended
 [fd](https://github.com/sharkdp/fd) | For better telescope search
