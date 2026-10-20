@@ -9,4 +9,5 @@ tree-sitter-cli [***Installed with your distro's package manager***] | So that t
 
 ## Reccomended
 [fd](https://github.com/sharkdp/fd) | For better telescope search
+
 [ripgrep](https://github.com/BurntSushi/ripgrep) | For telescope livegrep
