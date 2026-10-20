@@ -7,3 +7,4 @@ It is important to note that this project is actively being worked on. That is t
 
 ## Reccomended
 [fd](https://github.com/sharkdp/fd) | For better telescope search
+[ripgrep](https://github.com/BurntSushi/ripgrep) | For telescope livegrep

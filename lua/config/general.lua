@@ -5,3 +5,8 @@ local map = function(mode, keys, func, description)
 end
 
 map("n", "<leader>fe", ":Ex<cr>", "[F]ind [F]iles")
+
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.softtabstop = 4
+
