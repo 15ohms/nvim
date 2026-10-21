@@ -3,7 +3,7 @@ require("config.lazy")
 require("config.telescope")
 require("config.general")
 require("config.treesitter")
-
+require("config.statusline")
 
 -- Setting Highlight Colors
 

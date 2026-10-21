@@ -13,3 +13,5 @@ vim.lsp.enable('lua_ls')
 
 
 vim.lsp.config('gopls', {})
+
+vim.lsp.enable('clangd', {})
