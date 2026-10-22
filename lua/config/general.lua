@@ -17,6 +17,10 @@ map("n", "<C-t>", ":tabnew<cr>", "Press <C-t> in your browser.")
 map("n", "<C-w>", ":tabclose<cr>", "Press <C-w> in your browser.")
 map("n", "<C-v>", ":vsplit<cr>", "Split [V]ertically")
 map("n", "<C-h>", ":split<cr>", "[S]plit")
+vim.keymap.set("n", "H", vim.diagnostic.open_float, { -- I KNOW ITS UGLY I NEEDA FIX IT FAST 
+  desc = "Show diagnostics",
+})
+
 
 map("n", "<C-S-h>", "<C-w>h", "Vim keybinds do I need say more?")
 map("n", "<C-S-j>", "<C-w>j", "Vim keybinds do I need say more?")
