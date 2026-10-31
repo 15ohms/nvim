@@ -14,4 +14,8 @@ vim.lsp.enable('lua_ls')
 
 vim.lsp.config('gopls', {})
 
-vim.lsp.enable('clangd', {"--function-arg-placeholders=0"})
+vim.lsp.config("clangd", {
+  cmd = { "clangd", "--function-arg-placeholders=false" },
+})
+
+vim.lsp.enable("clangd")
